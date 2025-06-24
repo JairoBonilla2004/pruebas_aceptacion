@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f0f2f5;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+#productos, #carrito-section {
+  margin-bottom: 3rem;
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 700px;
+}
+
+.producto {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.producto span.nombre {
+  flex: 1;
+  font-weight: bold;
+}
+
+.producto span.precio {
+  width: 80px;
+}
+
+.producto input.cantidad {
+  width: 50px;
+  padding: 0.2rem;
+}
+
+button {
+  padding: 0.4rem 1rem;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+#carrito {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#carrito th, #carrito td {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+#carrito tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#carrito tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+button.btn-eliminar {
+  background-color: #e74c3c;
+  padding: 0.3rem 0.6rem;
+}
+
+button.btn-eliminar:hover {
+  background-color: #c0392b;
+}

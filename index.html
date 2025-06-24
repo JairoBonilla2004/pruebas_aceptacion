@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrito de Compras Avanzado</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <h1>Carrito de Compras Avanzado</h1>
+
+  <section id="productos">
+    <h2>Productos disponibles</h2>
+    <div class="producto" data-nombre="Laptop" data-precio="1000">
+      <span class="nombre">Laptop</span>
+      <span class="precio">$1000</span>
+      <input type="number" min="1" value="1" class="cantidad" />
+      <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+
+    <div class="producto" data-nombre="Mouse" data-precio="25">
+      <span class="nombre">Mouse</span>
+      <span class="precio">$25</span>
+      <input type="number" min="1" value="1" class="cantidad" />
+      <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+
+    <div class="producto" data-nombre="Teclado" data-precio="45">
+      <span class="nombre">Teclado</span>
+      <span class="precio">$45</span>
+      <input type="number" min="1" value="1" class="cantidad" />
+      <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+  </section>
+
+  <section id="carrito-section">
+    <h2>Carrito de Compras</h2>
+    <table id="carrito">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Cantidad</th>
+          <th>Precio Unitario</th>
+          <th>Subtotal</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h3>Total: $<span id="total">0</span></h3>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>

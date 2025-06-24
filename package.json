@@ -1,0 +1,23 @@
+{
+  "name": "pruebas_aceptacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairoBonilla2004/pruebas_aceptacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JairoBonilla2004/pruebas_aceptacion/issues"
+  },
+  "homepage": "https://github.com/JairoBonilla2004/pruebas_aceptacion#readme",
+  "devDependencies": {
+    "cypress": "^14.5.0"
+  }
+}
